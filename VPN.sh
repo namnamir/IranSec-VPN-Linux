@@ -12,7 +12,7 @@ elif [ $option = 2 ]; then
 elif [ $option = 3 ]; then
 	sudo openvpn --config US2-IST-V1-Linux.ovpn
 else
-	printf "\n\n\nJust press 1, 2, or 3. I can't understand other charachters!"
+	printf "\n\nJust press 1, 2, or 3. I can't understand other charachters!"
 	sleep 1
 fi
 cd /
